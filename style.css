@@ -99,7 +99,7 @@
 
 .item_content1 {
     background-image: url("images/Group 36.svg");
-    height: 260px;
+    
     
 }
 
@@ -258,5 +258,81 @@
         
         gap: 16px;
         grid-template-columns: repeat(2,360px);
+    }
+}
+
+
+  
+
+@media (min-width:320px ) and (max-width:767px){
+    
+    .nav {
+        width: 100%;
+       
+    }
+
+    .right_nav {
+        
+    }
+    .brand {
+        width: 100%;
+      ;
+    }
+    .images_brand_img {
+        display: none;
+    }
+    .title_brand {
+        line-height: 46px;
+
+        
+    }
+    .info_brand {
+        
+        margin-top: 0%;
+    }
+    .promo_info_brand {
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    .promo_info_brand {
+        padding-top: 148px;
+        padding-bottom: 149px;
+    }
+    
+    
+
+    .content {
+        
+        display: flex;
+        gap: 32px;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 2%;
+        padding-right: 2%;
+        
+    }
+     
+    .content_product {
+        
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+    }
+    .product {  
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+    }
+    .images_product {
+        width: 98%;
     }
 }
