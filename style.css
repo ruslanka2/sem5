@@ -52,10 +52,12 @@
     padding-left: 16px;
     margin-top: 35%;
     
+    
 }
 
 .promo_info_brand {
     padding-left: 64px;
+    width: 50%;
 }
 
 .title_brand {
@@ -239,7 +241,13 @@
     
 }
 
+
+
 @media (max-width: 1024px){
+
+    .icon-nav:hover {
+        color:aqua;
+    }
  
     .brand {
         padding-left: calc(50% - 386px);
@@ -267,16 +275,16 @@
 @media (min-width:320px ) and (max-width:767px){
     
     .nav {
-        width: 100%;
+        width: 100vw;
        
     }
-
-    .right_nav {
-        
+    
+    
+    
     }
     .brand {
-        width: 100%;
-      ;
+        width: 100vw;
+      
     }
     .images_brand_img {
         display: none;
@@ -291,7 +299,7 @@
         margin-top: 0%;
     }
     .promo_info_brand {
-        width: 100%;
+        width: 100vw;
         padding-left: 0px;
         display: flex;
         align-items: center;
@@ -302,37 +310,45 @@
         padding-bottom: 149px;
     }
     
+    .item_content1 {
+        width: 96vw;
+    }
     
 
     .content {
         
         display: flex;
         gap: 32px;
-        width: 100%;
+        width: 100vw;
         flex-direction: column;
-        padding-left: 2%;
-        padding-right: 2%;
         
-    }
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+
+        
+        }
      
     .content_product {
         
         gap: 16px;
         display: flex;
-        flex-direction: column;
-        padding-left: 2%;
-        padding-right: 2%;
-        width: 100%;
+        flex-wrap: wrap;
+        width: 100vw;
+
     }
     .product {  
         gap: 16px;
         display: flex;
-        flex-direction: column;
-        padding-left: 2%;
-        padding-right: 2%;
-        width: 100%;
+       
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center
+
     }
     .images_product {
-        width: 98%;
+        width: 96vw;
     }
-}
+    .item{
+        width: 96vw;
+    }
