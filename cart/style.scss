@@ -1,0 +1,428 @@
+@import '../vars';
+* {
+    margin: 0;
+    padding: 0;}
+
+a {
+        text-decoration: none;
+    }
+    
+.center {
+        padding-left: calc(50% - $widthSite/2);
+        padding-right: calc(50% - $widthSite/2);
+    }
+    .header {
+        display: flex; 
+        justify-items: center;
+        background:#222222;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        &__left {
+            display: flex;
+            align-items: center;
+            gap: 41px;
+        }
+        &__right {
+            display: flex;
+            align-items: center;
+            gap: 41px;
+        }
+    
+    
+    }
+    .top__head {
+        background:#F8F3F4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        &__title {
+            color: $colorSelect;
+            text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-size: 24px;
+            font-family: Lato;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+    }
+.main {
+    padding-top: 96px;
+    display: flex;
+ 
+    &__left {
+        width: 57.3%;
+        &_box{
+            &_krest {
+                margin-top: 28px;
+                margin-left: 22px;
+            }
+            &_item {
+                display: flex;
+                margin-bottom: 40px;
+                box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.21);
+                
+
+                &_description {
+                  margin: 22px 57px 0px 32px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 6px;
+                        
+                        &_title {
+                            margin-bottom: 36px;
+                            color: #222;
+                            font-size: 24px;
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        &_text {
+                            color: #575757;
+                            font-size: 22px;
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            & span {
+                                color: $colorSelect;
+                            }
+                        &_input {
+                          width: 42px;
+                          margin-left: 20px;
+                          border: 1px solid #EAEAEA;
+                          font-size: 18px;
+                          font-family: Lato;
+                          font-style: normal;
+                          font-weight: 400;
+                          line-height: normal;
+                          
+
+                        }   
+                        }
+                        &_krest {
+                            margin-top: 28px;
+                            margin-left: 57px;
+                        }
+                }
+            }   
+        }
+        &_down {
+            display: flex;
+                justify-content: space-between;
+                
+          &__button{
+                border: 1px solid #A4A4A4;
+                margin-bottom: 128px;
+                margin-top: 89px;
+                transition: all 0.3s;
+                
+                &_text{
+                    margin: 18px 40px;
+                    font-size: 14px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+                &:hover {
+                    color: white;
+                    background: $colorSelect;
+                    
+                }
+            }
+        }       
+    }
+    
+
+      
+     
+    }
+  
+.main_right{
+  margin-left: 128px;
+   &_shipping{
+    
+      &_title {
+        color: #222;
+        font-size: 16px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 20px;
+      }
+      &_form1 {
+        width: 360px;
+        padding: 16px 0 16px 16px;
+        margin-bottom: 20px;
+        border: 1px solid #A4A4A4;
+      }
+      &_form2 {
+        width: 72px;
+        padding: 10px 16px;
+        border: 1px solid #A4A4A4;
+        color: #A4A4A4;
+      }
+   }
+  &_total {
+    background: #F5F3F3;
+    margin-top: 69px;
+    &_price {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      &_down {
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        &_button {
+          margin-top: 17px;
+          margin-bottom: 42px;
+          padding: 16px 42px;
+          font-size: 16px;
+          font-family: Lato;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          background: $colorSelect;
+          color: #FBFBFB;
+          border: 1px solid #F16D7F ;
+        }
+      }
+      &_title {
+        font-size: 11px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color:  #4A4A4A;
+        margin-top: 39px;
+        margin-right: 34px;
+        & span{
+          color:$colorSelect;
+        }
+        
+      
+      }
+     
+      }
+   
+    }}
+    
+  
+  
+  .main_right_total_price_title1 {
+    color: #222;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 12px;
+    margin-right: 37px;
+    margin-bottom: 21px;
+    & span{
+      color:$colorSelect;
+  }
+
+  }
+
+
+
+
+    .subcribe {
+      padding-left: calc(50% - 800px);
+      padding-right: calc(50% - 800px);
+      }
+      
+      .fon {
+        position: relative;
+        display: flex;
+      }
+      
+      .photo__sub {
+        width: 100%;
+      }
+      
+      .left__subscribe {
+        position: absolute;
+        width: 359.45px;
+        height: 225px;
+        left: 230.29px;
+        top: 97px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .block__woomen {
+        width: 144px;
+        height: 150px;
+        align-content: center;
+      }
+      
+      .text__left__subscribe {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+      }
+      
+      .right__subscribe {
+        position: absolute;
+        left: 50.81%;
+        right: 14.38%;
+        top: 33.48%;
+        bottom: 52.9%;
+      }
+      
+      .title__subscribe {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 167.2%;
+        /* or 40px */
+        text-align: center;
+        color: #222224;
+      }
+      
+      .sub__title__subscribe {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        /* or 40px */
+        text-align: center;
+        color: #222224;
+      }
+      
+      .left__button {
+        left: 57.31%;
+        right: 26.69%;
+        top: 54.24%;
+        bottom: 34.82%;
+        height: 49px;
+        background: #E1E1E1;
+        border-radius: 50px 0 0 50px;
+      }
+      
+      .inputt {
+        background: #E1E1E1;
+        left: 58.69%;
+        right: 30.69%;
+        top: 55.8%;
+        bottom: 36.16%;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        color: #222224;
+        opacity: 0.67;
+        border: none;
+        margin: 11px 23px 21px 22px;
+      }
+      
+      .forma {
+        display: flex;
+        justify-content: center;
+        height: 49px;
+        margin-top: 30px;
+        align-items: center;
+      }
+      
+      .send__button {
+        left: 73.81%;
+        right: 20.88%;
+        top: 55.8%;
+        bottom: 36.16%;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        background: #F16D7F;
+        border: none;
+        border-radius: 0 50px 50px 0;
+        height: 49px;
+        margin: 0 8px;
+      }
+      
+      .right__button {
+        background: #F16D7F;
+        left: 73.31%;
+        right: 20.44%;
+        top: 54.24%;
+        bottom: 34.82%;
+        border-radius: 0 50px 50px 0;
+        height: 49px;
+      }
+      
+      .a_right__button {
+        text-decoration: none;
+      }
+      
+      .footers {
+        background: #222224;
+        display: flex;
+        align-items: center;
+      }
+      
+      .text__footer {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 10vw;
+        color: #FBFBFB;
+      }
+      
+      .left__footer {
+        width: 50%;
+      }
+      
+      .right__footer {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        display: flex;
+        gap: 7px;
+        width: 50%;
+        justify-content: flex-end;
+        margin-right: 10vw;
+      }
+      
+      .ico {
+        width: 32px;
+        height: 32px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .ico:hover {
+        background: #F16D7F;
+      }
+      
+      .bottom_product:hover {
+        background: #F16D7F;
+        color: #FBFBFB;
+      }
+    
