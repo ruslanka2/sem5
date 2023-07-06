@@ -1,0 +1,362 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.header {
+  display: flex;
+  justify-items: center;
+  background: #222222;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+
+.top__head {
+  background: #F8F3F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top__head__title {
+  color: #F16D7F;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  font-family: Lato;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.forms {
+  margin-top: 64px;
+  display: flex;
+}
+
+.forms-field {
+  width: 64%;
+}
+.forms-field__title {
+  color: #222;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.forms-field__enter {
+  display: flex;
+  flex-direction: column;
+}
+.forms-field__input {
+  width: 360px;
+  color: #B1B1B1;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 20px;
+  padding: 16px 0px 15px 16px;
+  box-sizing: border-box;
+}
+.forms-field__input__down {
+  display: flex;
+  flex-direction: column;
+}
+.forms-field__radio {
+  color: #000;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 34px;
+  margin-right: 40px;
+}
+.forms-field__text {
+  color: #B1B1B1;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.forms-field__button {
+  background: #F16D7F;
+  color: #FFFFFF;
+  margin-bottom: 96px;
+  padding: 16px 20px 17px 29px;
+  border: none;
+  transition: all 0.3s;
+}
+.forms-field__button:hover {
+  background: #F8F3F4;
+}
+.forms-field__button a {
+  color: #FFFFFF;
+}
+.forms-field__link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.forms-field__link:hover {
+  color: #F16D7F;
+}
+.forms-field__link:hover path {
+  fill: #F16D7F;
+}
+
+.forms-loyalty {
+  margin-left: 128px;
+}
+.forms-loyalty__title {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+.forms-loyalty__text {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+.forms-loyalty__box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.forms-loyalty__advantages {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.forms-loyalty__advantages::before {
+  content: "✓";
+}
+
+.subcribe {
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
+}
+
+.fon {
+  position: relative;
+  display: flex;
+}
+
+.photo__sub {
+  width: 100%;
+}
+
+.left__subscribe {
+  position: absolute;
+  width: 359.45px;
+  height: 225px;
+  left: 230.29px;
+  top: 97px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__woomen {
+  width: 144px;
+  height: 150px;
+  align-content: center;
+}
+
+.text__left__subscribe {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.right__subscribe {
+  position: absolute;
+  left: 50.81%;
+  right: 14.38%;
+  top: 33.48%;
+  bottom: 52.9%;
+}
+
+.title__subscribe {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+  /* or 40px */
+  text-align: center;
+  color: #222224;
+}
+
+.sub__title__subscribe {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  /* or 40px */
+  text-align: center;
+  color: #222224;
+}
+
+.left__button {
+  left: 57.31%;
+  right: 26.69%;
+  top: 54.24%;
+  bottom: 34.82%;
+  height: 49px;
+  background: #E1E1E1;
+  border-radius: 50px 0 0 50px;
+}
+
+.inputt {
+  background: #E1E1E1;
+  left: 58.69%;
+  right: 30.69%;
+  top: 55.8%;
+  bottom: 36.16%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #222224;
+  opacity: 0.67;
+  border: none;
+  margin: 11px 23px 21px 22px;
+}
+
+.forma {
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.send__button {
+  left: 73.81%;
+  right: 20.88%;
+  top: 55.8%;
+  bottom: 36.16%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: #F16D7F;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  height: 49px;
+  margin: 0 8px;
+}
+
+.right__button {
+  background: #F16D7F;
+  left: 73.31%;
+  right: 20.44%;
+  top: 54.24%;
+  bottom: 34.82%;
+  border-radius: 0 50px 50px 0;
+  height: 49px;
+}
+
+.a_right__button {
+  text-decoration: none;
+}
+
+.footers {
+  background: #222224;
+  display: flex;
+  align-items: center;
+}
+
+.text__footer {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 10vw;
+  color: #FBFBFB;
+}
+
+.left__footer {
+  width: 50%;
+}
+
+.right__footer {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 7px;
+  width: 50%;
+  justify-content: flex-end;
+  margin-right: 10vw;
+}
+
+.ico {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico:hover {
+  background: #F16D7F;
+}
+
+.bottom_product:hover {
+  background: #F16D7F;
+  color: #FBFBFB;
+}/*# sourceMappingURL=style.css.map */
