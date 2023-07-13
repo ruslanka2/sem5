@@ -691,6 +691,9 @@ a {
     font-weight: 300;
     line-height: 143.1%;
   }
+  .link2 {
+    display: none;
+  }
   .brand {
     width: 100vw;
   }
